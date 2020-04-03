@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pp" />
+
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="50dp"
+            android:text="@string/htg_luas_pp"
+            android:textAlignment="center"
+            android:clickable="true"
+
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_lebar"
+
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+
+
+                android:inputType="number"
+
+
+
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_panjang"
+
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+
+
+                android:inputType="number"
+
+
+
+
+                />
+
+        </TableRow>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/btnok"
+                android:layout_width="150dp"
+                android:layout_height="49dp"
+                android:layout_gravity="center"
+
+
+
+                android:text="@string/htg_luas" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

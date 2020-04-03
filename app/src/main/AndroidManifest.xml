@@ -9,6 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".luasperseg"></activity>
+        <activity android:name=".luassgtg" />
+        <activity android:name=".luastrapes" />
+        <activity android:name=".luaspp" />
+        <activity android:name=".luasling" />
+        <activity android:name=".kelilingtrapes" />
+        <activity android:name=".kelilingsegitiga" />
+        <activity android:name=".kelilingpp" />
+        <activity android:name=".kelilingpersegi" />
+        <activity android:name=".kelilinglingkaran" />
+        <activity android:name=".main2" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
